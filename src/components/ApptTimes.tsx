@@ -1,6 +1,5 @@
 import React from 'react';
 import {v4 as uuidv4} from "uuid";
-import {start} from "repl";
 import {APPT_ENTRY_DIVISION_MARKER} from "../Constants";
 
 type ApptTimesProps = {

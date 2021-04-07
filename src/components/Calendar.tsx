@@ -52,8 +52,6 @@ export const Calendar: FunctionComponent<ICalender> = ({calendarEntries}) => {
         return acc
     }, [] );
 
-    console.log(entryPositionsWithColumns);
-
     const entries = calendarEntries.map( (entry, index) =>{
         const {title, description, startTime, duration} = entry;
         const overlap: boolean = false;
